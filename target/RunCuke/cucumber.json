@@ -1,0 +1,381 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15264010500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User Should be able to Add Product SuccessFully To Shopping Cart",
+        "description": "",
+        "id": "gear-test;user-should-be-able-to-add-product-successfully-to-shopping-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 1598961300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 551260100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on homepage",
+            "match": {
+              "location": "GearSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 760217200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Mouse Hover on Gear Menu",
+            "match": {
+              "location": "GearSteps.userMouseHoverOnGearMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2747071800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Bags",
+            "match": {
+              "location": "GearSteps.userClicksOnBags()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2395861400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on Product Name Overnight Duffle",
+            "match": {
+              "location": "GearSteps.userClickOnProductNameOvernightDuffle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 821687700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Verifies text Overnight Duffle",
+            "match": {
+              "location": "GearSteps.userVerifiesTextOvernightDuffle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 306502000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User changes quantity to 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 25
+                }
+              ],
+              "location": "GearSteps.userChangesQuantityTo(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 439650000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Add to Cart Button",
+            "match": {
+              "location": "GearSteps.userClicksOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1475194600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User verifies the text You added Overnight Duffle to your shopping cart",
+            "match": {
+              "location": "GearSteps.userVerifiesTheTextYouAddedOvernightDuffleToYourShoppingCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2331389100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks onShopping cart link",
+            "match": {
+              "location": "GearSteps.userClicksOnShoppingCartLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 425125900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User verifies Product name",
+            "match": {
+              "location": "GearSteps.userVerifiesProductName()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 521354100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User verifies Product Quantity",
+            "match": {
+              "location": "GearSteps.userVerifiesProductQuantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 340588900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Verifies Product price",
+            "match": {
+              "location": "GearSteps.userVerifiesProductPrice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171322100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User changed quantity from 3 to 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 27
+                },
+                {
+                  "val": "5",
+                  "offset": 32
+                }
+              ],
+              "location": "GearSteps.userChangedQuantityFromTo(int,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 198284700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User updated Shopping cart",
+            "match": {
+              "location": "GearSteps.userUpdatedShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4399089000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User verifies Product total price",
+            "match": {
+              "location": "GearSteps.userVerifiesProductTotalPrice()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Gear Test",
+    "description": "",
+    "id": "gear-test",
+    "keyword": "Feature",
+    "uri": "Gear.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@sanity"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "I open Url \u003d https://magento.softwaretestingboard.com/",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 84900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": I am on homepage",
+            "match": {
+              "location": "WomenSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 813261500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Mouse Hover on Women Menu",
+            "match": {
+              "location": "WomenSteps.mouseHoverOnWomenMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 263523800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Mouse Hover on Tops",
+            "match": {
+              "location": "WomenSteps.mouseHoverOnTops()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2816581400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Jackets",
+            "match": {
+              "location": "WomenSteps.clickOnJackets()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8655847900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify The Sort By Price Filter",
+        "description": "",
+        "id": "women-test;verify-the-sort-by-price-filter",
+        "after": [
+          {
+            "result": {
+              "duration": 1387913800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3005542300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Select Sort By filter “Price Filter”",
+            "match": {
+              "location": "WomenSteps.selectSortByFilterPriceFilter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1343470200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify the products name display by price low to high",
+            "match": {
+              "location": "WomenSteps.verifyTheProductsNameDisplayByPriceLowToHigh()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Women Test",
+    "description": "",
+    "id": "women-test",
+    "keyword": "Feature",
+    "uri": "Women.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
